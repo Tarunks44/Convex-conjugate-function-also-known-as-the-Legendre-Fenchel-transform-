@@ -12,7 +12,7 @@ f = @(x) max(0, x);         % ReLU function
 
 % Create coordinate vectors
 x = linspace(-2.5, 2.5, 200);
-y_values = linspace(-4, 4, 50); % Points for animation
+y_values = linspace(-4, 4, 100); % Points for animation
 
 % Prepare figure
 figure('Position', [100, 100, 1200, 600]);
